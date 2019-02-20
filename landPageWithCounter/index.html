@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A landing page for the website developement testing for prhwebdev.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
+</head>
+
+<body>
+    <header class="showcase">
+        <div class="content">
+            <!-- <img src="#" class="logo" alt="#"> -->
+            <div class="title">
+                Welcome To yourname.com
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora reiciendis vero accusantium quisquam excepturi officiis, quas quaerat doloremque distinctio recusandae!
+                    </div>
+            </div>
+    </header>
+    <!-- About -->
+
+                    <div class="counter">
+                        <h2 id="head">Website will be ready in:</h2>
+                        <ul>
+                            <li><span id="days"></span>days</li>
+                            <li><span id="hours"></span>Hours</li>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <li><span id="seconds"></span>Seconds</li>
+                        </ul>
+                    </div>
+
+    <footer>
+        <p>prhwebdev &copy;
+            <span id="year"></span>
+        </p>
+        <small>Website designed &amp; developed by
+            <a href="prhwebdev.com">prhwebdev.com</a>
+        </small>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <script>
+        // Get the current year for the copyright. Must add jquery link to work.
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
